@@ -13,6 +13,7 @@ typedef struct node *PtrNode;
 typedef PtrNode Position;
 typedef PtrNode List;
 #define SIZE sizeof(struct node) 
+//typedef sizeof(struct node) SIZE;
 
 struct node{
     Elemtype Data;
