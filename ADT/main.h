@@ -5,8 +5,10 @@
 	> Created Time: Sun Jan  1 00:34:53 2017
  ************************************************************************/
 
-#include<stdio.h>
 #include<stdlib.h>
+
+
+#ifndef _List_H
 struct node;
 typedef int Elemtype;
 typedef struct node *PtrNode;
@@ -14,6 +16,7 @@ typedef PtrNode Position;
 typedef PtrNode List;
 #define SIZE sizeof(struct node) 
 //typedef sizeof(struct node) SIZE;
+#endif
 
 struct node{
     Elemtype Data;
@@ -62,5 +65,15 @@ void Insert(Elemtype X, List L, Position P){
     TemCell->Next = P->Next;
 }
 
+void DeleteList(List L){
+    Position P,Tmp;
+    P = L->Next;
+    L->Next = NULL;//Delete Header 
+    while(P!=NULL){
+        Tmp = P->Next;
+        free(P);
+        P = Tmp;
+    }
+}
 
 
