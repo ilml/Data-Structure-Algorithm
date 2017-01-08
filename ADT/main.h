@@ -9,6 +9,7 @@
 
 
 #ifndef _List_H
+#define _List_H
 struct node;
 typedef int Elemtype;
 typedef struct node *PtrNode;

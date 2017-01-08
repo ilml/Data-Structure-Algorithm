@@ -9,12 +9,12 @@
 #include<main.h>
 
 
-typedef struct Node *PtrNode;
+typedef struct Node *PtrToNode;
 
 struct Node{
    Elemtype Coeff;
    Elemtype Expo;
-   PtrNode Next;
+   PtrToNode Next;
 };
 
-
+          
