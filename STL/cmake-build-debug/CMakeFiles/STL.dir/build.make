@@ -57,38 +57,38 @@ include CMakeFiles/STL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STL.dir/flags.make
 
-CMakeFiles/STL.dir/outiter.cpp.o: CMakeFiles/STL.dir/flags.make
-CMakeFiles/STL.dir/outiter.cpp.o: ../outiter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STL.dir/outiter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STL.dir/outiter.cpp.o -c /Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/outiter.cpp
+CMakeFiles/STL.dir/insert.cpp.o: CMakeFiles/STL.dir/flags.make
+CMakeFiles/STL.dir/insert.cpp.o: ../insert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/STL.dir/insert.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/STL.dir/insert.cpp.o -c /Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/insert.cpp
 
-CMakeFiles/STL.dir/outiter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/outiter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/outiter.cpp > CMakeFiles/STL.dir/outiter.cpp.i
+CMakeFiles/STL.dir/insert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/STL.dir/insert.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/insert.cpp > CMakeFiles/STL.dir/insert.cpp.i
 
-CMakeFiles/STL.dir/outiter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/outiter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/outiter.cpp -o CMakeFiles/STL.dir/outiter.cpp.s
+CMakeFiles/STL.dir/insert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/STL.dir/insert.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/insert.cpp -o CMakeFiles/STL.dir/insert.cpp.s
 
-CMakeFiles/STL.dir/outiter.cpp.o.requires:
+CMakeFiles/STL.dir/insert.cpp.o.requires:
 
-.PHONY : CMakeFiles/STL.dir/outiter.cpp.o.requires
+.PHONY : CMakeFiles/STL.dir/insert.cpp.o.requires
 
-CMakeFiles/STL.dir/outiter.cpp.o.provides: CMakeFiles/STL.dir/outiter.cpp.o.requires
-	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/outiter.cpp.o.provides.build
-.PHONY : CMakeFiles/STL.dir/outiter.cpp.o.provides
+CMakeFiles/STL.dir/insert.cpp.o.provides: CMakeFiles/STL.dir/insert.cpp.o.requires
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/insert.cpp.o.provides.build
+.PHONY : CMakeFiles/STL.dir/insert.cpp.o.provides
 
-CMakeFiles/STL.dir/outiter.cpp.o.provides.build: CMakeFiles/STL.dir/outiter.cpp.o
+CMakeFiles/STL.dir/insert.cpp.o.provides.build: CMakeFiles/STL.dir/insert.cpp.o
 
 
 # Object files for target STL
 STL_OBJECTS = \
-"CMakeFiles/STL.dir/outiter.cpp.o"
+"CMakeFiles/STL.dir/insert.cpp.o"
 
 # External object files for target STL
 STL_EXTERNAL_OBJECTS =
 
-STL: CMakeFiles/STL.dir/outiter.cpp.o
+STL: CMakeFiles/STL.dir/insert.cpp.o
 STL: CMakeFiles/STL.dir/build.make
 STL: CMakeFiles/STL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable STL"
@@ -99,7 +99,7 @@ CMakeFiles/STL.dir/build: STL
 
 .PHONY : CMakeFiles/STL.dir/build
 
-CMakeFiles/STL.dir/requires: CMakeFiles/STL.dir/outiter.cpp.o.requires
+CMakeFiles/STL.dir/requires: CMakeFiles/STL.dir/insert.cpp.o.requires
 
 .PHONY : CMakeFiles/STL.dir/requires
 

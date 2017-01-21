@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/outiter.cpp" "/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/cmake-build-debug/CMakeFiles/STL.dir/outiter.cpp.o"
+  "/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/insert.cpp" "/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/cmake-build-debug/CMakeFiles/STL.dir/insert.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

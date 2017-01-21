@@ -3,5 +3,5 @@ project(STL)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES outiter.cpp)
+set(SOURCE_FILES  insert.cpp)
 add_executable(STL ${SOURCE_FILES})

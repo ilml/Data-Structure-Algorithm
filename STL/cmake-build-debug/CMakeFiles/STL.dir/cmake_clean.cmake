@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/STL.dir/outiter.cpp.o"
+  "CMakeFiles/STL.dir/insert.cpp.o"
   "STL.pdb"
   "STL"
 )

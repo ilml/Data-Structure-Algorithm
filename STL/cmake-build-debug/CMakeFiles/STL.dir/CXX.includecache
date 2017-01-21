@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/outiter.cpp
+/Users/dullsome/Desktop/code/cpp/Data-Structure-Algorithm/STL/insert.cpp
 iostream
 -
-vector
+algorithm
+-
+list
 -
 

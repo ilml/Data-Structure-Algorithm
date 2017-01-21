@@ -123,32 +123,32 @@ STL/fast:
 	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/build
 .PHONY : STL/fast
 
-outiter.o: outiter.cpp.o
+insert.o: insert.cpp.o
 
-.PHONY : outiter.o
+.PHONY : insert.o
 
 # target to build an object file
-outiter.cpp.o:
-	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/outiter.cpp.o
-.PHONY : outiter.cpp.o
+insert.cpp.o:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/insert.cpp.o
+.PHONY : insert.cpp.o
 
-outiter.i: outiter.cpp.i
+insert.i: insert.cpp.i
 
-.PHONY : outiter.i
+.PHONY : insert.i
 
 # target to preprocess a source file
-outiter.cpp.i:
-	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/outiter.cpp.i
-.PHONY : outiter.cpp.i
+insert.cpp.i:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/insert.cpp.i
+.PHONY : insert.cpp.i
 
-outiter.s: outiter.cpp.s
+insert.s: insert.cpp.s
 
-.PHONY : outiter.s
+.PHONY : insert.s
 
 # target to generate assembly for a file
-outiter.cpp.s:
-	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/outiter.cpp.s
-.PHONY : outiter.cpp.s
+insert.cpp.s:
+	$(MAKE) -f CMakeFiles/STL.dir/build.make CMakeFiles/STL.dir/insert.cpp.s
+.PHONY : insert.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... STL"
-	@echo "... outiter.o"
-	@echo "... outiter.i"
-	@echo "... outiter.s"
+	@echo "... insert.o"
+	@echo "... insert.i"
+	@echo "... insert.s"
 .PHONY : help
 
 
